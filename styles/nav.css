@@ -1,0 +1,22 @@
+div.header
+{
+    background-color: #131313;
+    width: 100%;
+}
+
+nav#mobile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1rem 0;
+}
+
+nav a,
+nav a:active
+{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}

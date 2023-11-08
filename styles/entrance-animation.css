@@ -1,0 +1,60 @@
+section.welcome,
+section.main
+{
+    height: 100%;
+}
+
+section.welcome
+{
+    display: grid;
+    place-items: center;
+
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: opacity 1s ease-in-out;
+}
+
+section.welcome h1
+{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    top: 50px;
+    opacity: 0;
+
+    transition: top .5s ease-in-out, opacity .7s ease-in-out;
+}
+
+section.welcome h1.show
+{
+    top: 0;
+    opacity: 1;
+}
+
+section.welcome.hide
+{
+    opacity: 0;
+}
+
+section.main
+{
+    display: none;
+    transform: scale(.5);
+    opacity: 0;
+
+    transition: transform .5s ease-in-out, opacity .7s ease-in-out;
+}
+
+section.main.show
+{
+    display: unset;
+    transform: scale(1);
+    opacity: 1;
+}
