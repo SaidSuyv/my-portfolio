@@ -1,0 +1,14 @@
+[
+    {
+        "img":"../assets/img/facelibrary.png",
+        "img_alt":"Imagen de proyecto 'FaceLibrary'",
+        "title":"FaceLibrary",
+        "description":"Un proyecto sencillo, inspirado en Facebook"
+    },
+    {
+        "img":"../assets/img/bookaction.png",
+        "img_alt":"Imagen de proyecto 'BookAction'",
+        "title":"BookAction",
+        "description":"Proyecto de UI/UX"
+    }
+]

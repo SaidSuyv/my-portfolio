@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -20,32 +22,54 @@
         <section class="welcome hide">
             <h1>Welcome</h1>
         </section>
-        
+
         <section class="main show">
-            
+
             <div class="header">
-                
+
                 <nav id="mobile">
-            
+
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
-            
+
                 </nav>
 
             </div>
-            
+
             <div class="subsection title-container">
-                
+
                 <h1>Said Suybate</h1>
                 <h2>Full Stack Web Developer</h2>
-                <p>Un desarrollador web/android especializado en Front-end y maquetado de diseño.</p>
-    
+                <p>
+                    Un desarrollador web/android especializado en Front-end y maquetado de diseño.
+                </p>
+
             </div>
 
             <div class="subsection projects-container" id="projects">
-                <p>a</p>
+
+                <div id="projects-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#projects-carousels" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#projects-carousels" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projects-carousels" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projects-carousels" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+                <a href="projects/index.html" class="button">Ver más</a>
+
             </div>
-    
+
         </section>
 
         <div class="go-up-container hide">
@@ -58,6 +82,9 @@
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="scripts/carousel.js" type="text/javascript" charset="utf-8"></script>
     <script src="script.js"></script>
 </body>
 </html>

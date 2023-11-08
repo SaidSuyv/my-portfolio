@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     };
 
     h1.classList.add('show');
+    
+    onLoadCarousel();
 
 });
 
