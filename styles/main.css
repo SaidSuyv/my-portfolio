@@ -38,7 +38,7 @@ section.main > *
 section.main > .subsection
 {
     height: 100%;
-    padding: 0 1em;
+    padding: 0 2em;
 }
 
 section.main > .title-container,
@@ -96,6 +96,11 @@ section.main > .contact-container h1,
 section.main > .contact-container h2
 {
     text-align: center;
+}
+
+section.main > .contact-container h2
+{
+    color: #fff7;
 }
 
 section.main > .contact-container .links

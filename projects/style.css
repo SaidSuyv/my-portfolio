@@ -46,3 +46,41 @@ main#projects-container div.project-item div.clicker
     width: 100%;
     cursor: pointer;
 }
+
+span.ng,
+span.mongo
+{
+    background-color: #3a0303;
+}
+
+span.ts,
+span.exp
+{
+    background-color: rgb(5, 22, 78);
+}
+
+span.php
+{
+    background-color: rgb(61, 4, 99);
+}
+
+span.sql
+{
+    background-color: rgb(4, 75, 75);
+}
+
+span.html
+{
+    background-color: #8f2020;
+}
+
+span.css,
+span.njs
+{
+    background-color: #033a20;
+}
+
+span.js
+{
+    background-color: #6e5c0b;
+}

@@ -9,7 +9,7 @@
         "info":
         {
             "title":"Face Library",
-            "description":"An full MVC project with login, register and dashboard section.",
+            "description":"Un proyecto completo de MVC, con login, registro y dashboard.",
             "tags":[
                 {
                     "name":"Angular",
@@ -40,7 +40,7 @@
         "info":
         {
             "title":"Rock, Paper, Scissors",
-            "description":"A simple game made with frontend technologies.",
+            "description":"Un juego hecho con tecnologías frontend.",
             "tags":[
                 {
                     "name":"Html5",
@@ -67,7 +67,7 @@
         "info":
         {
             "title":"Countries API",
-            "description":"An API to get almost all country's information (ISO2, ISO3 and Phone codes).",
+            "description":"Una API para obtener la siguiente información de varios paises: (ISO2, ISO3 and Phone codes).",
             "tags":[
                 {
                     "name":"Html5",
@@ -90,7 +90,7 @@
         "info":
         {
             "title":"Time Stamp API",
-            "description":"An API to get timestamp dates based on any type of date.",
+            "description":"Una API que regresa la información de la fecha en base a lo que se pase por el url.",
             "tags":[
                 {
                     "name":"Html5",
@@ -121,7 +121,7 @@
         "info":
         {
             "title":"URL Shortener",
-            "description":"An API project to make short url using a no-relationable Database.",
+            "description":"Una aplicación para acortar URLs utilizando un almacenmiento de Base de datos no relacional.",
             "tags":[
                 {
                     "name":"Html5",
@@ -156,7 +156,7 @@
         "info":
         {
             "title":"Exercise Tracker",
-            "description":"An API made to track exercises.",
+            "description":"Una API para trackear ejercicios.",
             "tags":[
                 {
                     "name":"Html5",
@@ -191,7 +191,7 @@
         "info":
         {
             "title":"File Analizer",
-            "description":"An API to analyze data from a file.",
+            "description":"Una API para analizar información de un archivo.",
             "tags":[
                 {
                     "name":"Html5",
@@ -222,7 +222,7 @@
         "info":
         {
             "title":"My calculator",
-            "description":"A calculator made from scratch with frontend technologies.",
+            "description":"Una calculadora hecha con tecnologías frontend.",
             "tags":[
                 {
                     "name":"Html5",
