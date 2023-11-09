@@ -1,0 +1,242 @@
+[
+    {
+        "url":"https://said.digysoft.com/pages/face-library/",
+        "img":
+        {
+            "src":"assets/facelibrary.png",
+            "alt":"A fully MVC project."
+        },
+        "info":
+        {
+            "title":"Face Library",
+            "description":"An full MVC project with login, register and dashboard section.",
+            "tags":[
+                {
+                    "name":"Angular",
+                    "class":"ng"
+                },
+                {
+                    "name":"TypeScript",
+                    "class":"ts"
+                },
+                {
+                    "name":"PHP",
+                    "class":"php"
+                },
+                {
+                    "name":"MySQL",
+                    "class":"sql"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://said.digysoft.com/pages/rock-scissor-paper/",
+        "img":
+        {
+            "src":"assets/rockpaperscissors.png",
+            "alt":"A simple game."
+        },
+        "info":
+        {
+            "title":"Rock, Paper, Scissors",
+            "description":"A simple game made with frontend technologies.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"JavaScript",
+                    "class":"js"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://saidsuyv.github.io/countries_api/",
+        "img":
+        {
+            "src":"assets/countries.png",
+            "alt":"An API project."
+        },
+        "info":
+        {
+            "title":"Countries API",
+            "description":"An API to get almost all country's information (ISO2, ISO3 and Phone codes).",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"JSON",
+                    "class":"json"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://boilerplate-project-timestamp.saidsuyv.repl.co/",
+        "img":
+        {
+            "src":"assets/timestamp.png",
+            "alt":"A Time Stamp project."
+        },
+        "info":
+        {
+            "title":"Time Stamp API",
+            "description":"An API to get timestamp dates based on any type of date.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"NodeJS",
+                    "class":"njs"
+                },
+                {
+                    "name":"ExpressJS",
+                    "class":"exp"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://boilerplate-project-urlshortener.saidsuyv.repl.co/",
+        "img":
+        {
+            "src":"assets/urlshortener.png",
+            "alt":"A url shortener project."
+        },
+        "info":
+        {
+            "title":"URL Shortener",
+            "description":"An API project to make short url using a no-relationable Database.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"NodeJS",
+                    "class":"njs"
+                },
+                {
+                    "name":"ExpressJS",
+                    "class":"exp"
+                },
+                {
+                    "name":"MongoDB",
+                    "class":"mongo"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://boilerplate-project-exercisetracker.saidsuyv.repl.co/",
+        "img":
+        {
+            "src":"assets/exercisetracker.png",
+            "alt":"An exercise tracker project."
+        },
+        "info":
+        {
+            "title":"Exercise Tracker",
+            "description":"An API made to track exercises.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"NodeJS",
+                    "class":"njs"
+                },
+                {
+                    "name":"ExpressJS",
+                    "class":"exp"
+                },
+                {
+                    "name":"MongoDB",
+                    "class":"mongo"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://boilerplate-project-filemetadata.saidsuyv.repl.co/",
+        "img":
+        {
+            "src":"assets/fileanalizer.png",
+            "alt":"A File Analizer project."
+        },
+        "info":
+        {
+            "title":"File Analizer",
+            "description":"An API to analyze data from a file.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"NodeJS",
+                    "class":"njs"
+                },
+                {
+                    "name":"ExpressJS",
+                    "class":"exp"
+                }
+            ]
+        }
+    },
+    {
+        "url":"https://saidsuyv.github.io/my_calculator/",
+        "img":
+        {
+            "src":"assets/calculator.png",
+            "alt":"A simple calculator project."
+        },
+        "info":
+        {
+            "title":"My calculator",
+            "description":"A calculator made from scratch with frontend technologies.",
+            "tags":[
+                {
+                    "name":"Html5",
+                    "class":"html"
+                },
+                {
+                    "name":"CSS3",
+                    "class":"css"
+                },
+                {
+                    "name":"JavaScript",
+                    "class":"js"
+                }
+            ]
+        }
+    }
+]

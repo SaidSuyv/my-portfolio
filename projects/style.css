@@ -1,0 +1,48 @@
+*{padding: 0;margin: 0;}
+html,body{height: 100%;}
+
+body
+{
+    background-color: #131313;
+    min-width: 300px;
+}
+
+nav a.icon-button
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 1.7rem;
+
+    border-radius: 30px;
+
+    height: 40px;
+    width: 40px;
+    color: #fff;
+
+    display: grid;
+    place-items: center;
+}
+
+nav a.icon-button:hover
+{
+    background-color: #090909;
+}
+
+main#projects-container
+{
+    padding: 1.5rem 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+main#projects-container div.project-item div.clicker
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}

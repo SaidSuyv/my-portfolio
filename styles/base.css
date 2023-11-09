@@ -12,3 +12,8 @@ body
     background-color: #131313;
     color: #fff;
 }
+
+section.background
+{
+    opacity: .5;
+}
