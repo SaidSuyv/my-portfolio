@@ -1,24 +1,9 @@
-function getURL()
-{
-    let origin = window.location.host;
-
-    switch(origin)
-    {
-        case "127.0.0.1:5500":
-            return "/assets/project-slide.json";
-        default:
-            return "/portfolio/assets/project-slide.json";
-    }
-};
-
 function onLoadCarousel() {
 
     var container = document.querySelector("#projects div.carousel-inner");
 
-    var url = getURL();
-
     fetch(
-        url,
+        "project-slide.json",
         {
             method: 'GET',
             cache: 'default'
