@@ -34,6 +34,49 @@ function onLoadCarousel() {
 
     })
     .catch(error=>{
-        container.innerText = error;
+        document.querySelector('#projects').innerText = error;
     });
+}
+
+function onLoadSkills()
+{
+
+    var container = document.querySelector('#skills .skills-display');
+
+    fetch(
+        "skills.json",
+        {
+            method: "GET",
+            cache: "default"
+        }
+    )
+    .then(data => data.json())
+    .then(skills => {
+        if(typeof skills == 'undefined')
+        {
+            container.innerText = "There was an error. No skills were loaded";
+            return;
+        }
+
+        for(let skill of skills)
+        {
+            let template = `
+                <div class="progress-container px-2 ${skill.class}">
+                    <img class="w-100 my-3" src="${skill.src}">
+                    <div class="progress" role="progressbar">
+                        <div class="progress-bar" style="width: ${skill.percentage}">${skill.percentage}</div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML += template;
+        }
+
+        document.querySelector("#skills").innerHTML += "<h2 class='text-center py-4'>Y muchos más...</h2>";
+
+    })
+    .catch(error=>{
+        container.innerText = "There was an error. No skills were loaded.";
+    });
+
 }

@@ -1,3 +1,15 @@
+/* HEADER */
+
+div.header nav#mobile
+{
+    display: block;
+}
+
+div.header nav#desktop
+{
+    display: none;
+}
+
 /* GO UP BUTTON */
 
 div.go-up-container
@@ -43,11 +55,28 @@ section.main > .subsection
 
 section.main > .title-container,
 section.main > .projects-container,
+section.main > .aboutme-container,
+section.main > .skills-container,
+section.main > .skills-container .skills-display > div,
 section.main > .contact-container
 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+section.main > .skills-container .skills-display
+{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+section.main > .skills-container .skills-display > div
+{
+    justify-content: flex-end;
 }
 
 section.main > .projects-container
@@ -93,9 +122,56 @@ section.main > .contact-container
 }
 
 section.main > .contact-container h1,
-section.main > .contact-container h2
+section.main > .contact-container h2,
+section.main > .aboutme-container p,
+section.main > .aboutme-container h1,
+section.main > .skills-container .skills-display h1
 {
     text-align: center;
+}
+
+div.progress-container.html .progress-bar
+{
+    background-color: #ff5722;
+}
+
+div.progress-container.css .progress-bar
+{
+    background-color: #2196f3;
+}
+div.progress-container.js .progress-bar
+{
+    background-color: #ffdf00;
+    color: #000;
+}
+div.progress-container.njs .progress-bar
+{
+    background-color: #83cd29;
+    color: #000;
+}
+div.progress-container.jq .progress-bar
+{
+    background-color: #0868ac;
+}
+div.progress-container.bts .progress-bar
+{
+    background-color: #720ef5;
+}
+div.progress-container.ng .progress-bar
+{
+    background-color: #c4022c;
+}
+div.progress-container.ts .progress-bar
+{
+    background-color: #007bcd;
+}
+div.progress-container.mongo .progress-bar
+{
+    background-color: #4faa41;
+}
+div.progress-container.sql .progress-bar
+{
+    background-color: #e38d19;
 }
 
 section.main > .contact-container h2
@@ -169,6 +245,11 @@ section.main > .contact-container .links a span#fcc.text::before
     content: 'FreeCodeCamp:';
 }
 
+section.main > .contact-container .links a span#wsp.text::before
+{
+    content: 'Whatsapp:';
+}
+
 section.main > .contact-container .back-contact
 {
     width: 100%;
@@ -210,7 +291,8 @@ section.main > .contact-container .back-contact
         padding-left: 10rem;
     }
 
-    section.main > .title-container h1
+    section.main > .title-container h1,
+    section.main > .aboutme-container h1
     {
         font-size: 6rem;
     }
@@ -219,5 +301,44 @@ section.main > .contact-container .back-contact
     {
         font-size: 2rem;
         line-height: unset;
+    }
+
+    section.main > .aboutme-container p
+    {
+        font-size: 1.3rem;
+    }
+
+    section.main > .skills-container .skills-display
+    {
+        max-width: unset;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        grid-template-columns: unset;
+    }
+
+    section.main > .skills-container .skills-display > div
+    {
+        max-width: 200px;
+    }
+
+    section.main > .contact-container .back-contact
+    {
+        display: none;
+    }
+
+    section.main > .contact-container
+    {
+        background: url('../assets/img/back-desktop.png') no-repeat bottom;
+    }
+}
+
+@media screen and (min-width: 2700px)
+{
+    section.main > .contact-container
+    {
+        background: unset;
     }
 }

@@ -40,11 +40,61 @@
 
             <div class="header">
 
-                <nav id="mobile">
+                <nav class="navbar" id="mobile" data-bs-theme="dark">
 
-                    <a href="#projects">Proyectos</a>
-                    <a href="#aboutme">Sobre mí</a>
-                    <a href="#contact">Contacto</a>
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+                            <ul class="navbar-nav py-3">
+
+                                <li class="nav-item">
+                                    <a href="#projects" class="nav-link">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#aboutme" class="nav-link">Sobre mí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#skills" class="nav-link">Conocimientos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link">Contacto</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+
+                <nav class="navbar navbar-expand-lg" id="desktop" data-bs-theme="dark">
+
+                    <div class="container-fluid">
+
+                        <ul class="navbar-nav w-100 justify-content-around">
+
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#aboutme" class="nav-link">Sobre mí</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-link">Conocimientos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contacto</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
 
                 </nav>
 
@@ -83,10 +133,20 @@
 
             </div>
 
-            <div class="subsection about-me" id="aboutme">
+            <div class="subsection aboutme-container" id="aboutme">
 
                 <h1>Sobre mí</h1>
-                <p>Me llamo Said Suybate Vidal, soy un desarrollador Web Full Stack,</p>
+                <p>Me llamo Said Ian Ramses Suybate Vidal y soy un desarrollador Web Full Stack.</p>
+                <p>A lo largo de mi carrera fui desarrollando distintas aplicaciones personales para incrementar mi conocimiento y metodologías que me hicieron lo que sé, y lo que soy el día de hoy gracias a mi capacidad de aprender cosas de la forma más eficiente posible.</p>
+                <p>Me considero alguien determinado y soñador, deseando cada día crecer, aprender cosas nuevas y dedicarme a hacerlos realidad.</p>
+
+            </div>
+
+            <div class="subsection skills-container" id="skills">
+
+                <h1 class="text-center">Mis conocimientos</h1>
+
+                <div class="skills-display"></div>
 
             </div>
 
@@ -97,17 +157,21 @@
 
                 <div class="links">
 
-                    <a href="https://github.com/SaidSuyv">
+                    <a target="_blank" href="https://github.com/SaidSuyv">
                         <i class="bi bi-github"></i>
                         <span class="text" id="github">SaidSuyv</span>
                     </a>
-                    <a href="mailto:sirsuyvi@gmail.com">
+                    <a target="_blank" href="mailto:sirsuyvi@gmail.com">
                         <i class="bi bi-envelope"></i>
                         <span class="text" id="email">sirsuyvi&#64;gmail.com</span>
                     </a>
-                    <a href="https://www.freecodecamp.org/SaidSuyv">
+                    <a target="_blank" href="https://www.freecodecamp.org/SaidSuyv">
                         <i class="bi bi-link"></i>
                         <span class="text" id="fcc">SaidSuyv</span>
+                    </a>
+                    <a target="_blank" href="https://wa.me/+51927781972">
+                        <i class="bi bi-whatsapp"></i>
+                        <span class="text" id="wsp">Escribeme</span>
                     </a>
 
                 </div>

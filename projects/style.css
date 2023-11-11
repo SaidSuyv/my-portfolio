@@ -84,3 +84,13 @@ span.js
 {
     background-color: #6e5c0b;
 }
+
+.figma-button
+{
+    background-color: rgb(117, 44, 160);
+}
+
+.figma-button:hover
+{
+    background-color: rgb(49, 4, 75);
+}

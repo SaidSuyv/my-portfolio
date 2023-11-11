@@ -52,7 +52,8 @@ async function onSeeDetails(index)
         title: document.querySelector('#card-item-details #card-title-main'),
         description: document.querySelector('#card-item-details #card-description-main'),
         see: document.querySelector('#card-item-details a#see-project-button'),
-        tags: document.querySelector('#card-item-details #technologies')
+        tags: document.querySelector('#card-item-details #technologies'),
+        figma: document.querySelector("#card-item-details #figma-design")
     }
 
     elements.see.classList.add('disabled');
@@ -85,6 +86,15 @@ async function onSeeDetails(index)
         }
 
         elements.tags.innerHTML += "<hr>";
+
+        console.log(project.figma,typeof project.figma);
+        if(typeof project.figma != 'undefined')
+        {
+            elements.figma.innerHTML = `<span class="py-2">Este proyecto fue previamente diseñado con Figma. Mirelo aquí:</span> <a href="${project.figma}" target="_blank" class="btn w-100 figma-button">Ver diseño en Figma</a>`;
+        }else
+        {
+            elements.figma.innerHTML = "";
+        }
 
         elements.img.classList.remove('placeholder');
         elements.see.classList.remove('placeholder');
