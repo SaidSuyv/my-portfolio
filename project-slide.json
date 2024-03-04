@@ -1,4 +1,10 @@
 [
+		{
+				"img":"assets/img/fastword.png",
+				"img_alt":"Imagen de proyecto 'fastword'",
+				"title":"Fasrword",
+				"description":"Un proyecto complejo hecho para administrar cuentas con una base de datos local."
+		},
     {
         "img":"assets/img/facelibrary.png",
         "img_alt":"Imagen de proyecto 'FaceLibrary'",

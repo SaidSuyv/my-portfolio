@@ -1,4 +1,36 @@
 [
+		{
+			"url":"https://saidsuyv.github.io/fastword",
+			"img":
+			{
+				"src":"assets/fastword.png",
+				"alt":"An account handler for Windows."
+			},
+			"info":
+			{
+				"title":"Fastword",
+				"description":"Un software para Windows basado en ElectronJS para administrar cuentas con una muy sencilla interfaz intuitiva y agradable para el usuario",
+				"tags":
+				[
+					{
+						"name":"HTML5",
+						"class":"html"
+					},
+					{
+						"name":"CSS3",
+						"class":"css"
+					},
+					{
+						"name":"Javascript",
+						"class":"js"
+					},
+					{
+						"name":"NodeJS",
+						"class":"njs"
+					}
+				]
+			}
+		},
     {
         "url":"https://said.digysoft.com/pages/face-library/",
         "img":
