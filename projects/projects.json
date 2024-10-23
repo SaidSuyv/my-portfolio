@@ -32,7 +32,6 @@
 			}
 		},
     {
-        "url":"https://said.digysoft.com/pages/face-library/",
         "img":
         {
             "src":"assets/facelibrary.png",
@@ -64,7 +63,6 @@
         "figma":"https://www.figma.com/file/uvkI3WgsLdSQUwET3xfYYs/FaceLibrary?type=design&t=uSQCeCZ9vl9FzNwI-6"
     },
     {
-        "url":"https://said.digysoft.com/pages/rock-scissor-paper/",
         "img":
         {
             "src":"assets/rockpaperscissors.png",
