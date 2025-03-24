@@ -63,9 +63,6 @@ function onLoadSkills()
             let template = `
                 <div class="progress-container px-2 ${skill.class}">
                     <img class="w-100 my-3" src="${skill.src}">
-                    <div class="progress" role="progressbar">
-                        <div class="progress-bar" style="width: ${skill.percentage}">${skill.percentage}</div>
-                    </div>
                 </div>
             `;
 
