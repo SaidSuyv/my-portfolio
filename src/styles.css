@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+html,
+body,
+div#app {
+	height: 100%;
+	background-color: #121113;
+}
+
+div#app {
+	padding: 20px;
+	min-height: calc(100% - 40px);
+	min-width: calc(100% - 40px);
+}
+
+.text-secondary {
+	color: #ffbf00;
+}
+
+.text-primary {
+	color: #fff;
+}
