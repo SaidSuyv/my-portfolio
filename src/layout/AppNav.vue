@@ -12,7 +12,7 @@ const route = useRoute()
 				:initial="{ opacity: 0, y: -10 }"
 				:animate="{ opacity: 1, y: 0 }"
 				:exit="{ opacity: 0, y: -10 }"
-				transition="{ duration: 0.3 }"
+				:transition="{ duration: 0.3 }"
 				:key="'home'"
 			>
 				<RouterLink class="text-primary" to="/home">Inicio</RouterLink>
@@ -25,7 +25,7 @@ const route = useRoute()
 				:animate="{ opacity: 1, y: 0 }"
 				:exit="{ opacity: 0, y: -10 }"
 				layout
-				transition="{ duration: 0.3 }"
+				:transition="{ duration: 0.3 }"
 				:key="'about'"
 			>
 				<RouterLink class="text-primary" to="/about">Sobre mí</RouterLink>
@@ -37,7 +37,7 @@ const route = useRoute()
 				:animate="{ opacity: 1, y: 0 }"
 				:exit="{ opacity: 0, y: -10 }"
 				layout
-				transition="{ duration: 0.3 }"
+				:transition="{ duration: 0.3 }"
 				:key="'projects'"
 			>
 				<RouterLink class="text-primary" to="/projects">Proyectos</RouterLink>
@@ -49,7 +49,7 @@ const route = useRoute()
 				:animate="{ opacity: 1, y: 0 }"
 				:exit="{ opacity: 0, y: -10 }"
 				layout
-				transition="{ duration: 0.3 }"
+				:transition="{ duration: 0.3 }"
 				:key="'contact'"
 			>
 				<RouterLink class="text-primary" to="/contact">Contacto</RouterLink>
