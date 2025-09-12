@@ -1,22 +1,11 @@
 <script setup>
-import AdviceGeneratorImage from '@/assets/advice-generator.png'
-import CalculatorImage from '@/assets/my_calculator.png'
+import projects from '@/data/projects'
+
 import ProjectItem from '@/components/project-item.vue'
+import ProjectModal from '@/components/project-modal.vue'
 import { ref } from 'vue'
 
-const projects = [
-	{
-		title: 'Advice generator',
-		description:
-			'Un proyecto que consta de el consumo de APIs de terceros utilizando frameworks front',
-		image: AdviceGeneratorImage,
-	},
-	{
-		title: 'Calculator',
-		description: 'Un proyecto que consta de una calculadora con tecnologías web',
-		image: CalculatorImage,
-	},
-]
+import { motion } from 'motion-v'
 
 const isModalOpen = ref(false)
 const selectedItem = ref({})
@@ -28,11 +17,21 @@ const openModal = (item, index) => {
 	selectedIndex.value = index
 	isModalOpen.value = true
 }
+
+const containerVar = {
+	appear: { transition: { staggerChildren: 0.2, delayChildren: 0.2 } },
+	hide: { transition: { staggerChildren: 0.05, staggerDirection: -1 } },
+}
 </script>
 <template>
 	<div class="h-full flex flex-col items-center justify-center gap-8">
 		<p class="text-secondary text-xl">Mis proyectos</p>
-		<div class="w-full overflow-x-auto flex items-center gap-4">
+		<motion.div
+			initial="hide"
+			animate="appear"
+			:variants="containerVar"
+			class="w-full overflow-x-auto overflow-y-hidden py-5 flex items-center gap-4"
+		>
 			<ProjectItem
 				v-for="(project, index) in projects"
 				:key="index"
@@ -40,6 +39,12 @@ const openModal = (item, index) => {
 				:index="index"
 				:onClick="openModal"
 			/>
-		</div>
+		</motion.div>
 	</div>
+	<ProjectModal
+		@update:isOpen="($event) => (isModalOpen = $event)"
+		:isOpen="isModalOpen"
+		:item="selectedItem"
+		:index="selectedIndex"
+	/>
 </template>

@@ -26,13 +26,24 @@ const activeProject = ref(null)
 const delegateClick = () => {
 	expandItem()
 }
+
+const itemsVar = {
+	appear: {
+		opacity: 1,
+		y: 0,
+	},
+	hide: {
+		opacity: 0,
+		y: 30,
+	},
+}
 </script>
 
 <template>
 	<motion.div
+		:variants="itemsVar"
 		class="group h-[250px] w-[250px] bg-gray-400 rounded-3xl shrink-0 overflow-hidden flex justify-center relative"
 		@click="delegateClick"
-		:layout-id="`project-${props.index}`"
 	>
 		<img :src="props.item.image" alt="Image Project" class="h-full max-w-none" />
 		<div

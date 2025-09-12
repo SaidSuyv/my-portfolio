@@ -3,6 +3,8 @@ import { AtSign } from 'lucide-vue-next'
 import AppFooter from './AppFooter.vue'
 import AppNav from './AppNav.vue'
 import { motion } from 'motion-v'
+import { useRoute } from 'vue-router'
+import router from '@/router'
 
 const containerVariants = {
 	appear: {
@@ -23,16 +25,20 @@ const linksVariants = {
 		scale: 0.2,
 	},
 }
+
+const route = useRoute()
 </script>
 <template>
 	<AppNav />
 	<RouterView />
 	<AppFooter />
 	<motion.div
-		:initial="'hide'"
-		:animate="'appear'"
+		initial="hide"
+		animate="appear"
+		exit="hide"
 		:variants="containerVariants"
 		class="flex flex-col gap-4 fixed bottom-[20px]"
+		v-if="route.path !== '/contact'"
 	>
 		<motion.a
 			:variants="linksVariants"

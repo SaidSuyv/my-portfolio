@@ -5,7 +5,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
 <template>
-	<motion.div class="flex justify-around md:justify-end gap-4">
+	<motion.div class="flex justify-around md:justify-center gap-4 md:gap-20">
 		<AnimatePresence mode="popLayout">
 			<motion.div
 				v-if="route.path !== '/home'"
@@ -15,7 +15,7 @@ const route = useRoute()
 				:transition="{ duration: 0.3 }"
 				:key="'home'"
 			>
-				<RouterLink class="text-primary" to="/home">Inicio</RouterLink>
+				<RouterLink class="text-primary p-2" to="/home">Inicio</RouterLink>
 			</motion.div>
 
 			<motion.div
@@ -28,7 +28,7 @@ const route = useRoute()
 				:transition="{ duration: 0.3 }"
 				:key="'about'"
 			>
-				<RouterLink class="text-primary" to="/about">Sobre mí</RouterLink>
+				<RouterLink class="text-primary p-2" to="/about">Sobre mí</RouterLink>
 			</motion.div>
 
 			<motion.div
@@ -40,7 +40,7 @@ const route = useRoute()
 				:transition="{ duration: 0.3 }"
 				:key="'projects'"
 			>
-				<RouterLink class="text-primary" to="/projects">Proyectos</RouterLink>
+				<RouterLink class="text-primary p-2" to="/projects">Proyectos</RouterLink>
 			</motion.div>
 
 			<motion.div
@@ -52,7 +52,7 @@ const route = useRoute()
 				:transition="{ duration: 0.3 }"
 				:key="'contact'"
 			>
-				<RouterLink class="text-primary" to="/contact">Contacto</RouterLink>
+				<RouterLink class="text-primary p-2" to="/contact">Contacto</RouterLink>
 			</motion.div>
 		</AnimatePresence>
 	</motion.div>
