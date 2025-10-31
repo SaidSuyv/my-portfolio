@@ -13,7 +13,7 @@ export default [
             'Un proyecto que consta de el consumo de APIs de terceros utilizando frameworks front',
         image: AdviceGeneratorImage,
         published_at: 'Oct 19, 2022',
-        links: [{ name: 'Live', url: 'https://saidsuyv.click/advice-generator', icon: Link }],
+        links: [{ name: 'Live', url: 'https://saidsuyv.click/advice-generator/index.html', icon: Link }],
         stack: [
             { name: 'HTML', image: HTMLImage },
             { name: 'CSS', image: CSSImage },
@@ -26,7 +26,7 @@ export default [
         published_at: 'Nov 2, 2022',
         image: CalculatorImage,
         links: [
-            { name: 'Live', url: 'https://saidsuyv.click/my_calculator', icon: Link },
+            { name: 'Live', url: 'https://saidsuyv.click/my_calculator/index.html', icon: Link },
             {
                 name: 'Figma',
                 url: 'https://www.figma.com/design/TBd9pDaY0JBQwau4RQmeQN/Calculator?node-id=0-1&t=OLs7AeaJ5aLJ3V4y-1',
